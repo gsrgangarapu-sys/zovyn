@@ -2,6 +2,9 @@
   "name": "zovyn-job-portal",
   "version": "1.0.0",
   "private": true,
+  "bin": {
+    "vite": "./scripts/vite-shim.mjs"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
